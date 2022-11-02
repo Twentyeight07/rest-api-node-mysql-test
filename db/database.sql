@@ -1,0 +1,9 @@
+USE companydb;
+
+CREATE TABLE employees(
+  id INT(11) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NOT NULL,
+  lastname VARCHAR(45) DEFAULT NULL,
+  salary INT(20) DEFAULT NULL,
+  PRIMARY KEY(id)
+)
